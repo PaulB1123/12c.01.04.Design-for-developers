@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+
+    <a href="index.html"><img src="logo/logo_white.svg" alt="my_logo" class="logo" id="logo_white"></a>
+    <a href="index.html"><img src="logo/logo_black.svg" alt="my_logo" class="logo" id="logo_black" ></a>
+    <div class="toggle-container">
+      <input type="checkbox" id="switch" name="theme" /><label for="switch" >Toggle</label>
+    </div>
+  </nav>
+
+
+ <div class="header_text_main" id="header_text_main"><h1>Paul</h1>
+  <h1>WebDevelopmentStudent*</h1>
+    <h1>Copenhagen 2022</h1></div>
+
+
+  <header>
+
+    <div class="header_text">
+      <h1>I am Paul, web developer with a passion for creating stunning webistes </h1>
+      <p>
+        Hello! This is my portfolio where I will show a couple of projects that I have created in this module for the web development elective 
+      </p>
+      <p>
+        The projects below are made for the theme called "Design for developers". We learned how to use elements of design such as colors, fonts, layout and also CSS frameworks. 
+
+      </p>
+  
+    </div>
+    <img id="second_image" src="Photo_Paul_Balta_for_portfolio.jpg" alt="image_with_auto_lenght">
+    <div class="header_graphics"></div>
+  </header>
+
+
+<section id="advantages">
+  <h2>Projects</h2>
+
+<div class="projects_wraper">
+  <article class="advantages_card" id="first">
+    <a  href="project1.html">
+      <img src="mockups/FirstMockUp.jpg" alt="image_with_auto_lenght">
+    </a>
+   <div class="advantages_card_text" id="first_text">
+    <a href="project1.html"> <h3>Fonts and UI cards</h3></a>
+      <p>
+        The purpose of the exercise was to use font hierarchy & desingnig UI cards 
+      </p>
+    </div>
+  </article>
+
+  <article class="advantages_card" id="second">
+    <a  href="project2.html"><img src="mockups/SecondMockUp.jpg" alt="image_with_auto_lenght"></a>
+   <div class="advantages_card_text" id="second_text">
+    <a href="project2.html"> <h3>Colors and animations</h3></a>
+      <p>
+        The purpose of the exercise was to use css flex, grid and media queries
+      </p>
+    </div>
+  </article>
+
+  <article class="advantages_card" id="third">
+    <a  href="project3.html">
+      <img src="mockups/ThirdMockUp.jpg" alt="image_with_auto_lenght">
+    </a>
+   <div class="advantages_card_text" id="third_text">
+    <a href="project3.html"> <h3>Responsive Design</h3></a>
+      <p>
+        The purpose of the exercise was to apply the CSS Flex and Grid method 
+      </p>
+    </div>
+  </article>
+
+  <article class="advantages_card" id="forth">
+    <a  href="project4.html">
+      <img src="mockups/Forth/20959125.jpg" alt="image_with_auto_lenght">
+    </a>
+   <div class="advantages_card_text" id="forth_text">
+    <a  href="project4.html"><h3>Designing with frameworks</h3></a>
+      <p>
+        The purpose of the exercise was to design a Page using Pico Framework
+      </p>
+    </div>
+  </article>
+</div>
+
+  </section>
+
+
+
+
+  <section id="contact">
+    <div class="contact_text">
+      <h2>Contact</h2>
+      <p>
+        Long story short, I'm currently looking for a new project where I could step in on many different levels : content, social media, digital communication, design, and more!
+      </p>
+      <p>
+        If you would like to get in contact
+      </p>
+    </div>
+
+
+
+    <div class="contact_form_container">
+      <form id="contact_form">
+          <input type="email" id="name" placeholder="NAME" class="f-input" name="Name" required class="radient-border" />
+          <input type="email" id="email" placeholder="EMAIL ADDRESS" class="f-input" name="Email" required class="radient-border" />
+          <textarea id="message" placeholder="MESSAGE" class="f-input" name="Message" required></textarea>
+      </form>
+      <div class="form_group">
+        <button type="submit" id="button">Send</button>
+      </div>
+    </div>
+
+    
+  </section>
+
+
+
+
+
+  <footer>
+    <!-- Footer component -->
+    <div>
+      <h2 ><img src="logo/logo_white.svg" class="logo_footer" id="logo_white_2"></h2>
+      <h2 ><img src="logo/logo_black.svg" class="logo_footer" id="logo_black_2"></h2>
+      <!-- <ul>
+        <li><a>contact@logo.com</a></li>
+        <li><a>+45 23225343</a></li>
+      </ul> -->
+    </div>
+    <section>
+ 
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
